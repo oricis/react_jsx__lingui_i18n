@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import { Trans } from '@lingui/macro';
 import './App.css';
 
-function App() {
+function App()
+{
   return (
     <div className="App">
       <header className="App-header">
@@ -22,8 +23,8 @@ function App() {
 
         <p><Trans>Select your language:</Trans></p>
         <select>
-          <option value="en"><Trans>English</Trans></option>
-          <option value="es"><Trans>Spanish</Trans></option>
+          <option value="EN">English</option>
+          <option value="ES">Spanish</option>
         </select>
       </header>
     </div>
