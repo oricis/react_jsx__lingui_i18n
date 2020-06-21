@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import { Trans } from '@lingui/macro';
+import { defaultLangCode } from './i18n/config.js';
 import './App.css';
 
 function App()
 {
+  const [selectedLangCode, setSelectedLang] = useState(defaultLangCode);
+
   const selectLang = (langCode) =>
   {
     console.log('selectLang() -> ' + langCode);
+
+    if (langCode !== selectedLangCode) {
+      setSelectedLang(langCode);
+    }
   }
 
   return (
@@ -27,9 +34,11 @@ function App()
         </a>
 
         <p><Trans>Select your language:</Trans></p>
-        <select onChange={(event) => { selectLang(event.target.value) }}>
-          <option value="EN">English</option>
-          <option value="ES">Spanish</option>
+        <select
+          value={selectedLangCode}
+          onChange={(event) => { selectLang(event.target.value) }}>
+              <option value="EN">English</option>
+              <option value="ES">Spanish</option>
         </select>
       </header>
     </div>
