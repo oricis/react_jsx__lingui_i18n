@@ -18,5 +18,5 @@ export async function activate(locale)
     i18n.activate(locale)
 }
 
-const defaultLangCode = 'EN';
+export const defaultLangCode = 'EN';
 activate(defaultLangCode)
