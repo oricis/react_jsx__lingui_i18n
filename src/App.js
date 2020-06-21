@@ -5,6 +5,11 @@ import './App.css';
 
 function App()
 {
+  const selectLang = (langCode) =>
+  {
+    console.log('selectLang() -> ' + langCode);
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -22,7 +27,7 @@ function App()
         </a>
 
         <p><Trans>Select your language:</Trans></p>
-        <select>
+        <select onChange={(event) => { selectLang(event.target.value) }}>
           <option value="EN">English</option>
           <option value="ES">Spanish</option>
         </select>
