@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import { Trans } from '@lingui/macro';
 import './App.css';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <Trans>Edit <code>src/App.js</code> and save to reload.</Trans>
         </p>
         <a
           className="App-link"
@@ -16,13 +17,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <Trans>Learn React</Trans>
         </a>
 
-        <p>Select you language</p>
+        <p><Trans>Select your language:</Trans></p>
         <select>
-          <option value="en">English</option>
-          <option value="es">Spanish</option>
+          <option value="en"><Trans>English</Trans></option>
+          <option value="es"><Trans>Spanish</Trans></option>
         </select>
       </header>
     </div>
