@@ -18,6 +18,12 @@ function App() {
         >
           Learn React
         </a>
+
+        <p>Select you language</p>
+        <select>
+          <option value="en">English</option>
+          <option value="es">Spanish</option>
+        </select>
       </header>
     </div>
   );
