@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import { Trans } from '@lingui/macro';
-import { defaultLangCode } from './i18n/config.js';
+import { activate, defaultLangCode } from './i18n/config.js';
 import './App.css';
 
 function App()
@@ -12,6 +12,7 @@ function App()
   {
     console.log('selectLang() -> ' + langCode);
 
+    activate(langCode);
     if (langCode !== selectedLangCode) {
       setSelectedLang(langCode);
     }
