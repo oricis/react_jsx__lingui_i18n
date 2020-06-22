@@ -1,3 +1,18 @@
+# React JSX + lingui
+
+This is a React 16 JSX + i18n with lingui test.
+
+To known more email me: contacto@ironwoods.es or visit my website: https://www.ironwoods.es
+
+
+## License notice
+
+This project is under **MIT License**.
+
+
+***
+***
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
