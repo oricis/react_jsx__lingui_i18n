@@ -1,0 +1,2 @@
+(this.webpackJsonpreact_jsx__langs_with_lingui2=this.webpackJsonpreact_jsx__langs_with_lingui2||[]).push([[1],{40:function(a,e){a.exports={messages:{"Edit <0>src/App.js</0> and save to reload.":"Editar <0>src/App.js</0> y guardar para recargar",English:"Ingl\xe9s","Learn React":"Aprende React","Select your language:":"Selecciona tu lenguage:",Spanish:"Espa\xf1ol"}}}}]);
+//# sourceMappingURL=i18n-1.e9f79d31.chunk.js.map
