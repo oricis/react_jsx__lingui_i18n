@@ -1,9 +1,26 @@
 # React JSX + lingui
 
-This is a React 16 JSX + i18n with lingui test.
+This is a ***React 16* JSX** + **i18n** with ***lingui*** test.
 
-To known more email me: contacto@ironwoods.es or visit my website: https://www.ironwoods.es
+## Test online here: https://oricis.github.io/react_jsx__lingui_i18n
 
+***
+
+Step by step tutorial:
+
+https://github.com/oricis/notes/blob/master/contents/js/react/react&lingui.md
+
+***
+
+To known more email me:
+
+contacto@ironwoods.es
+
+or visit my website:
+
+https://www.ironwoods.es
+
+***
 
 ## License notice
 
